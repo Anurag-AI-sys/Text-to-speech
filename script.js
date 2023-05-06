@@ -29,7 +29,7 @@ const textToSpeech = () => {
     setInterval(() => {
         if (!synth.speaking && !isSpeaking) {
             isSpeaking = true;
-            button.innerText = "Convert to Speech";
+            button.innerText = "CONVERT TO SPEECH !";
         }
     });
 };
